@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E881AEA7181058B300DC3E48 /* BDBOAuth1RequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E881AE9B181058B300DC3E48 /* BDBOAuth1RequestOperationManager.m */; };
 		E881AEA8181058B300DC3E48 /* BDBOAuth1RequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E881AE9D181058B300DC3E48 /* BDBOAuth1RequestSerializer.m */; };
-		E881AEA9181058B300DC3E48 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E881AEA0181058B300DC3E48 /* NSData+Base64.m */; };
 		E881AEAA181058B300DC3E48 /* NSDictionary+BDBOAuth1Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = E881AEA2181058B300DC3E48 /* NSDictionary+BDBOAuth1Manager.m */; };
 		E881AEAB181058B300DC3E48 /* NSString+BDBOAuth1Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = E881AEA4181058B300DC3E48 /* NSString+BDBOAuth1Manager.m */; };
 		E881AEB11810597400DC3E48 /* BDBOAuth1SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E881AEB01810597400DC3E48 /* BDBOAuth1SessionManager.m */; };
@@ -44,8 +43,6 @@
 		E881AE9B181058B300DC3E48 /* BDBOAuth1RequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBOAuth1RequestOperationManager.m; sourceTree = "<group>"; };
 		E881AE9C181058B300DC3E48 /* BDBOAuth1RequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBOAuth1RequestSerializer.h; sourceTree = "<group>"; };
 		E881AE9D181058B300DC3E48 /* BDBOAuth1RequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBOAuth1RequestSerializer.m; sourceTree = "<group>"; };
-		E881AE9F181058B300DC3E48 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		E881AEA0181058B300DC3E48 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		E881AEA1181058B300DC3E48 /* NSDictionary+BDBOAuth1Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BDBOAuth1Manager.h"; sourceTree = "<group>"; };
 		E881AEA2181058B300DC3E48 /* NSDictionary+BDBOAuth1Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BDBOAuth1Manager.m"; sourceTree = "<group>"; };
 		E881AEA3181058B300DC3E48 /* NSString+BDBOAuth1Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BDBOAuth1Manager.h"; sourceTree = "<group>"; };
@@ -134,8 +131,6 @@
 		E881AE9E181058B300DC3E48 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				E881AE9F181058B300DC3E48 /* NSData+Base64.h */,
-				E881AEA0181058B300DC3E48 /* NSData+Base64.m */,
 				E881AEA1181058B300DC3E48 /* NSDictionary+BDBOAuth1Manager.h */,
 				E881AEA2181058B300DC3E48 /* NSDictionary+BDBOAuth1Manager.m */,
 				E881AEA3181058B300DC3E48 /* NSString+BDBOAuth1Manager.h */,
@@ -360,7 +355,6 @@
 				E8E54C13180C6C0700010143 /* UIWebView+AFNetworking.m in Sources */,
 				E8F375D91808743300C40148 /* AppDelegate.m in Sources */,
 				E8E54BE9180C6BFE00010143 /* AFHTTPSessionManager.m in Sources */,
-				E881AEA9181058B300DC3E48 /* NSData+Base64.m in Sources */,
 				E8D8E0BF180884DD00CDCB7D /* TweetsViewController.m in Sources */,
 				E8E54BEB180C6BFE00010143 /* AFNetworkReachabilityManager.m in Sources */,
 				E8E54C0F180C6C0700010143 /* UIImageView+AFNetworking.m in Sources */,

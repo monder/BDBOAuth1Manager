@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'AFNetworking/NSURLConnection', '~> 2.0.0'
   s.dependency 'AFNetworking/NSURLSession', '~> 2.0.0'
+  s.dependency 'NSData+Base64'
 end
